@@ -12,6 +12,6 @@
     "prefer-stable": true,
     "require": {
         "prodigyview/prodigyview": "^0.9.0",
-        "php-amqplib/php-amqplib": "v2.8.1"
+        "php-amqplib/php-amqplib": "v3.5.1"
     }
 }
