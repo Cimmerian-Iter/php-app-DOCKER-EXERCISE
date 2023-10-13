@@ -10,7 +10,7 @@ The services show a basic example of how to create a service for processing vide
 
 #### How To Run
 1. Clone this repo and cd into the cloned directory
-2. run `docker compose build` to generate the docker container (If this command fails, use the `docker-compose` prefix instead
+2. run `docker compose build` to generate the docker container (If this command fails, use the `docker-compose` prefix instead. On linux you might need to use sudo)
 3. Run `docker compose up` to launch the web server
 4. Open `http://localhost:8080/client.php` on your web browser to send the video to the server. It should display "Sent Video To Server!'"
 5. Open another tab and go to `http://localhost:8080/server.php` To process the video sent and save on the server the .mp4 and .mov of the video sent
