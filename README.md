@@ -15,6 +15,7 @@ The services show a basic example of how to create a service for processing vide
 4. Open `http://localhost:8080/client.php` on your web browser to send the video to the server. It should display "Sent Video To Server!'"
 5. Open another tab and go to `http://localhost:8080/server.php` To process the video sent and save on the server the .mp4 and .mov of the video sent
 6. You can watch the video by either going to `http://localhost:8080/video.mov` or `http://localhost:8080/video.mp4`
+7. Use CTRL+C to stop the docker container
 
 ## Source
 <https://github.com/ProdigyView-Toolkit/Microservices-Examples-PHP>
